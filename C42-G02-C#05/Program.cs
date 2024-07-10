@@ -38,16 +38,29 @@
             //int num2=(int)num1;
             //Console.WriteLine(num2);
 
-            int? k=null;
-            int l;
-            //l = k;
-            if (k == null)
-            {
-                l = (int)k;
-            }
-            else { l = 0; }
-            l=k.HasValue ? k.Value : 0; 
-            l=k!=null ? (int)k: 0;   
+            //int? k=null;
+            //int l;
+            ////l = k;
+            //if (k == null)
+            //{
+            //    l = (int)k;
+            //}
+            //else { l = 0; }
+            //l=k.HasValue ? k.Value : 0; 
+            //l=k!=null ? (int)k: 0;
+            #endregion
+            #region V4
+            //string Message = "hi";
+            //Message=null;
+            //Message = null!;
+
+            //string? Message2=null;
+            //Console.WriteLine(Message); 
+            string notnull = "hello";
+            string? nullableString = default;
+            notnull = nullableString!;
+            Console.WriteLine(notnull); 
+            Console.WriteLine(nullableString);  
             #endregion
         }
     }
