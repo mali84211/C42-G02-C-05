@@ -56,11 +56,20 @@
 
             //string? Message2=null;
             //Console.WriteLine(Message); 
-            string notnull = "hello";
-            string? nullableString = default;
-            notnull = nullableString!;
-            Console.WriteLine(notnull); 
-            Console.WriteLine(nullableString);  
+            //string notnull = "hello";
+            //string? nullableString = default;
+            //notnull = nullableString!;
+            //Console.WriteLine(notnull); 
+            //Console.WriteLine(nullableString);  
+            #endregion
+            #region V5
+            //double x = default;
+            //Console.WriteLine(x);
+            //int[]? numbers = default;
+            //foreach(int num in numbers)
+            //{Console.WriteLine(num); }
+
+            //int? length = numbers?.Length;
             #endregion
         }
     }
